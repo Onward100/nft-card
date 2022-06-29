@@ -1,0 +1,99 @@
+body{
+    font-family: 'poppins';
+    width: 100%;
+    background-color:hsl(217, 54%, 11%);
+}
+.wrapper{
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 500px;
+    margin-left: 26px;
+    border-radius: 10px;
+}
+.image-background{
+    background-image: url(image-equilibrium.jpg);
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.body{
+    position: relative;
+    top: 290px;
+    color: white;
+    left: 25px;
+}
+.body p{
+    font-size: 14px;
+    opacity: .7;
+    margin-top: -10px;
+    width: 250px;
+}
+.text{
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.eth::before{
+    content: url(icon-ethereum.svg);
+    width: 11px;
+    height: 18px;
+    margin-right: 10px;
+    margin-left: 25px;
+}
+.eth{
+    color: aqua;
+    font-size: 13px;
+}
+.days::before{
+    content: url(icon-clock.svg);
+    width: 17px;
+    height: 17px;
+    margin-right: 2px;
+}
+.days{
+    position: relative;
+    left: -28px;
+    font-size: 13px;
+    color: white;
+    opacity: .7;
+}
+.line{
+    border-bottom: 1px solid white;
+    margin-left: 25px;
+    width: 250px;
+    opacity: .5;
+}
+.text2{
+    display: flex;
+    color: white;
+    font-size: 11px;
+    position: relative;
+    left: 80px;
+    top: -40px;
+}
+.text2 .creation{
+    opacity: .7;
+}
+.text2 .name{
+    margin-left: 5px;
+}
+.image{
+    background-image: url(image-avatar.png);
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    margin-left: 25px;
+}
+@media (min-width: 900px){
+    body{
+        width: 100px;
+    }
+    .wrapper{
+        margin-left: 530px;
+    }
+}
+
